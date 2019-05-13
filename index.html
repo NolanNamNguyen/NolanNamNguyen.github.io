@@ -1,876 +1,435 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AthletesWorld</title>
-    <link rel="stylesheet" href="../../css/bootstrap.css">
-    <link rel="stylesheet" href="../../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../css/index-style.css">
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-    <script src="../../JS/jquery.js"></script>
-    <script src="../../JS/jquery-3.2.1.min.js"></script>
-    <script src="../../JS/hambergerss.js"></script>
-    <!--FLY IN CONTENTS-->
-    <script
-            src="http://code.jquery.com/jquery-1.10.2.js"
-            integrity="sha256-it5nQKHTz+34HijZJQkpNBIHsjpV8b6QzMJs9tmOBSo="
-            crossorigin="anonymous">
-
-    </script>
-    <!--FLY IN CONTENTS-->
-    <script src="../../JS/angular.js"></script>
-    <script src="../../JS/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="../../css/product-carousel.css">
-    <link rel="stylesheet" href="../../css/Blog2.css">
-    <link rel="stylesheet" href="../../css/Blogexpand.css">
-    <link rel="stylesheet" href="../../css/Nav-hover.css">
-    <link rel="stylesheet" href="../../css/excarousel.css">
-    <link rel="stylesheet" href="../../css/fade-in.css">
-    <link rel="stylesheet" href="../../css/Responsive-ultimage.css">
-
-
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>My page</title>
+    <script src="Scripts/jquery-3.3.1.min.js"></script>
+    <script src="Scripts/Textanime.js"></script>
+    <link rel="stylesheet" href="CSS/main.css">
 </head>
-<body ng-app="">
-<div class="overlay"></div>
-<a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
-<!--BEGIN SLIDE-->
-<div class="banner">
-    <div id="myCarousel" class="carousel slide carousel-fade carousel-1st-slide" data-ride="carousel">
-        <!-- Indicators -->
-        <header ng-include="'../common/header.html'"></header>
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner carousel-banner">
-            <div class="indicators-control">
-                <ol class="carousel-indicators indicators-banner">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                    <li data-target="#myCarousel" data-slide-to="3"></li>
-                    <li data-target="#myCarousel" data-slide-to="4"></li>
-                </ol>
-            </div>
-            <div class="item active item-banner">
-                <img class="image-banner"
-                     src="http://cdn.shopify.com/s/files/1/1774/5405/t/2/assets/slide1_image.jpg?686788137492996697"
-                     alt="">
-                <div class="caption-banner carousel-caption">
-                    <div class="animatable fadeInUp textblock-1">
-                        <div class="textblock1-title">
-                            <h2>nike</h2>
-                            <h3>air force</h3>
-                        </div>
-                        <div class="text-img">
-                            <img src="http://cdn.shopify.com/s/files/1/1774/5405/t/2/assets/slide1_textblock_image.png?686788137492996697"
-                                 alt="">
-                        </div>
-                    </div>
-                    <div class="animatable fadeInUp textblock-2">
-                        <h2>air force 1 ultra flyknit</h2>
-                        <p>The Nike Air Force 1 Ultra Flyknit Men's Shoe weighs 50 percent less than the '82 hoops
-                            original thanks to its all-new, ultra-breathable Nike Flyknit upper.</p><br>
-                        <a href="#" class=""></a>
-                        <div class="new-btn">
-                            <a href="#" class="btn btn-effect">
-                                <svg>
-                                    <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-                                </svg>
-                                more info
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="item item-banner">
-                <img class="image-banner"
-                     src="http://cdn.shopify.com/s/files/1/1774/5405/t/2/assets/slide2_image.jpg?686788137492996697"
-                     alt="">
-                <div class="caption-banner carousel-caption">
-                    <div class="animatable fadeInUp textblock-1">
-                        <div class="textblock1-title">
-                            <h2>new balance</h2>
-                            <h3>running classics</h3>
-                        </div>
-                        <div class="text-img">
-                            <img src="http://cdn.shopify.com/s/files/1/1774/5405/t/2/assets/slide2_textblock_image.png?686788137492996697"
-                                 alt="">
-                        </div>
-                    </div>
-                    <div class="animatable fadeInUp textblock-2">
-                        <h2>878 90’s Running</h2>
-                        <p>A must for sneaker collectors, the New Balance 878 will add variety to your weekly lineup.
-                            ABZORB® cushioning in the midfoot provides exceptional shock absorption Leather/mesh/suede
-                            upper.</p>
-                        <div class="new-btn btn-slide">
-                            <a href="#" class="btn btn-effect">
-                                <svg>
-                                    <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-                                </svg>
-                                more info
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="item item-banner">
-                <img class="image-banner"
-                     src="http://cdn.shopify.com/s/files/1/1774/5405/t/2/assets/slide3_image.jpg?686788137492996697"
-                     alt="">
-                <div class="caption-banner carousel-caption">
-                    <div class="animatable fadeInUp textblock-1">
-                        <div class="textblock1-title">
-                            <h2>asics</h2>
-                            <h3>men's running shoes</h3>
-                        </div>
-                        <div class="text-img">
-                            <img src="http://cdn.shopify.com/s/files/1/1774/5405/t/2/assets/slide3_textblock_image.png?686788137492996697"
-                                 alt="">
-                        </div>
-                    </div>
-                    <div class="animatable fadeInUp textblock-2">
-                        <h2>FUZEX™</h2>
-                        <p>When we set out to design the dynamic ASICS fuzeX™ shoe, our goal was to create a revolution
-                            in running footwear. We wanted to bring running back to its essence: freedom, speed,
-                            exhilaration, and fun.</p>
-                        <div class="new-btn btn-slide">
-                            <a href="#" class="btn btn-effect ">
-                                <svg>
-                                    <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-                                </svg>
-                                more info
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="item item-banner">
-                <img class="image-banner"
-                     src="http://cdn.shopify.com/s/files/1/1774/5405/t/2/assets/slide4_image.jpg?686788137492996697"
-                     alt="">
-                <div class="caption-banner carousel-caption">
-                    <div class="animatable fadeInUp textblock-1">
-                        <div class="textblock1-title">
-                            <h2>adidas</h2>
-                            <h3>men's collection</h3>
-                        </div>
-                        <div class="text-img">
-                            <img src="http://cdn.shopify.com/s/files/1/1774/5405/t/2/assets/slide4_textblock_image.png?686788137492996697"
-                                 alt="">
-                        </div>
-                    </div>
-                    <div class="animatable fadeInUp textblock-2">
-                        <h2>ULTRA BOOST SHOES</h2>
-                        <p>Less than a week after Kanye showed off his all-white Ultra Boosts to the world, the German
-                            brand allows for a more reserved, muted option. Equipped with the brand’s&nbsp;TORSION®
-                            SYSTEM and&nbsp;ADIWEAR™ outsole.</p>
-                        <div class="new-btn btn-slide">
-                            <a href="#" class="btn btn-effect ">
-                                <svg>
-                                    <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-                                </svg>
-                                more info
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="item item-banner">
-                <img class="image-banner"
-                     src="http://cdn.shopify.com/s/files/1/1774/5405/t/2/assets/slide5_image.jpg?686788137492996697"
-                     alt="">
-                <div class="caption-banner carousel-caption">
-                    <div class="animatable fadeInUp textblock-1">
-                        <div class="textblock1-title">
-                            <h2>saucony</h2>
-                            <h3>originals</h3>
-                        </div>
-                        <div class="text-img">
-                            <img src="http://cdn.shopify.com/s/files/1/1774/5405/t/2/assets/slide5_textblock_image.png?686788137492996697"
-                                 alt="">
-                        </div>
-                    </div>
-                    <div class="animatable fadeInUp textblock-2">
-                        <h2>Men’s Retro Sneakers</h2>
-                        <p>This is the product of intelligent tech and simplified comfort. Its silhouette remains true
-                            to the GRID family, while an overhauled diamond quilted upper shows unrivaled versatility.
-                            Wear them proudly and wear them often.</p>
-                        <div class="new-btn btn-slide">
-                            <a href="#" class="btn btn-effect ">
-                                <svg>
-                                    <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-                                </svg>
-                                more info
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Left and right controls -->
-        <span class="left carousel-control banner-control slide-control" href="#myCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-            <span class="sr-only">Previous</span>
-        </span>
-        <span class="right carousel-control banner-control slide-control" href="#myCarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-            <span class="sr-only">Next</span>
-        </span>
-    </div>
+<body>
+<div class="background_gradient">
+    <ul class="bg_bubbles">
+        <li class="bubbles bubbles1"></li>
+        <li class="bubbles bubbles2"></li>
+        <li class="bubbles bubbles3"></li>
+        <li class="bubbles bubbles4"></li>
+        <li class="bubbles bubbles4" style="left:50%; bottom: -700px"></li>
+        <li class="bubbles bubbles5"></li>
+        <li class="bubbles bubbles6" style="left: 7%; bottom: -330px"></li>
+        <li class="bubbles bubbles6" style="left:30%; bottom: -600px"></li>
+        <li class="bubbles bubbles6"></li>
+        <li class="bubbles bubbles7" style=" bottom: -700px"></li>
+        <li class="bubbles bubbles8"></li>
+        <li class="bubbles bubbles8" style="left: 77%; bottom: -400px"></li>
+        <li class="bubbles bubbles9"></li>
+    </ul>
 </div>
-<!--END SLIDE-->
-<!--  end slider -->
-
-<!--FADE IN CONTENT-->
-
-<div class="container welcome">
-    <p class="welcome-p">welcome to athletes world</p>
-    <h2 class="welcome-h">We Create a Website For <br> You Guys Sport Lovers That</h2>
-    <div class="row content-with-icon">
-        <div class="col-sm-4 col-xs-12 1st-introduce">
-            <i class="icon-content icon-facebook"></i>
-            <div class="inbox-text">
-                <h3 class="title-1st">Provie Best Products</h3>
-                <p class="short-desc">This is where we sit down, grab a cup of coffee and dial in the details.</p>
-            </div>
-        </div>
-        <div class="col-sm-4 col-xs-12 1st-introduce">
-            <i class="icon-content icon-facebook"></i>
-            <div class="inbox-text">
-                <h3 class="title-1st">Provie Best Products</h3>
-                <p class="short-desc">This is where we sit down, grab a cup of coffee and dial in the details.</p>
-            </div>
-        </div>
-        <div class="col-sm-4 col-xs-12 1st-introduce">
-            <i class="icon-content icon-facebook"></i>
-            <div class="inbox-text">
-                <h3 class="title-1st">Provie Best Products</h3>
-                <p class="short-desc">This is where we sit down, grab a cup of coffee and dial in the details.</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="contain-move parallax-contain section-1">
-    <div class="overlay-para"></div>
-    <h2 class="parallax-title"> Develop Your Foot Work</h2>
-</div>
-<div class="container skill-guide">
-    <div class="col-sm-5 col-xs-12 img-skill">
-        <div class="block-1 animatable fadeInLeft">
-            <div class="img-1 img-1st">
-                <img src="../../image/background/parallax/nike_home_ntk_cristiano_original-wallpaper-3840x2160.jpg"/>
-            </div>
-            <div class="img-2 img-2-1st img-1st">
-                <img src="../../image/background/StockSnap_3V5FXN3S64.jpg"/>
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-7 col-xs-12 skill-content animatable fadeInRight">
-        <p class="welcome-p skill-p">football skill</p>
-        <h2 class="welcome-h skil-h">We will guide yout to become a star</h2>
-        <p class="skill-text">We aim high at being focused on building relationships with our clients and community.
-            Using our creative gifts drives this foundation. The time has come to bring those ideas and plans to life.
-            This is where we really begin to visualize your napkin sketches and make.</p>
-        <div class="new-btn btn-slide btn-title">
-            <a href="#" class="btn btn-effect ">
-                <svg>
-                    <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-                </svg>
-                read more
+<div class="resume_Big_container">
+    <div class="indicator_resume__container">
+        <div class="indicator_resume">
+            <a class="indicate_contain_a about_indicate">
+                <i class="far fa-user"></i>
+                About
+            </a>
+            <a class="indicate_contain_a resume_indicate">
+                <i class="far fa-address-card"></i>
+                Resume
+            </a>
+            <a class="indicate_contain_a project_indicate">
+                <i class="fas fa-network-wired"></i>
+                Projects
             </a>
         </div>
     </div>
-</div>
-
-<div class="contain-move parallax-contain section-2">
-    <div class="overlay-para"></div>
-    <h2 class="parallax-title">Let's Jump Higher</h2>
-</div>
-<div class="container skill-guide">
-
-    <div class="col-sm-7 col-xs-12 skill-content animatable fadeInLeft">
-        <p class="welcome-p skill-p">basketball skill</p>
-        <h2 class="welcome-h skil-h">We will guide yout to become a star</h2>
-        <p class="skill-text">We aim high at being focused on building relationships with our clients and community.
-            Using our creative gifts drives this foundation. The time has come to bring those ideas and plans to life.
-            This is where we really begin to visualize your napkin sketches and make.</p>
-        <div class="new-btn btn-slide btn-title">
-            <a href="#" class="btn btn-effect ">
-                <svg>
-                    <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-                </svg>
-                read more
-            </a>
-        </div>
-    </div>
-    <div class="col-sm-5 col-xs-12 img-skill">
-        <div class="block-1 animatable fadeInRight">
-            <div class="img-1 img-1st">
-                <img src="../../image/background/30_D6A2922.jpg"/>
+    <div class="profile_big_contain">
+        <div class="profile_contain">
+            <div class="cover_image">
+                <img src="Content/the_thick_forest-wallpaper-1920x1080.jpg"/>
             </div>
-            <div class="img-2 img-2-1st img-1st">
-                <img src="../../image/background/soc4.jpg"/>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="contain-move parallax-contain section-3">
-    <div class="overlay-para"></div>
-    <h2 class="parallax-title">We'll follow your every step</h2>
-</div>
-<div class="container skill-guide">
-    <div class="col-sm-5 col-xs-12 img-skill">
-        <div class="block-1 animatable fadeInLeft">
-            <div class="img-1 img-1st">
-                <img src="../../image/background/636887598.jpg"/>
-            </div>
-            <div class="img-2 img-2-1st img-1st">
-                <img src="../../image/background/hqdefault.jpg"/>
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-7 col-xs-12 skill-content animatable fadeInRight">
-        <p class="welcome-p skill-p">running skill</p>
-        <h2 class="welcome-h skil-h">We will guide yout to become a star</h2>
-        <p class="skill-text">We aim high at being focused on building relationships with our clients and community.
-            Using our creative gifts drives this foundation. The time has come to bring those ideas and plans to life.
-            This is where we really begin to visualize your napkin sketches and make.</p>
-        <div class="new-btn btn-slide btn-title">
-            <a href="#" class="btn btn-effect ">
-                <svg>
-                    <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-                </svg>
-                read more
-            </a>
-        </div>
-    </div>
-</div>
-
-
-<!-- END FADE IN CONTENT-->
-
-<!--BEGIN PRODUCT CAROUSEL-->
-<main class="cd-main-content">
-    <div class="cd-fixed-bg cd-bg-1">
-        <div class="pro-slide">
-            <p class="title-index">featured product</p>
-            <div id="product-carousel" class="carousel slide carousel-fade-product" data-ride="carousel">
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner carousel-banner-product">
-                    <div class="item active item-product">
-                        <div class="wrap-product wrap-1 col-sm-6 con-xs-6">
-                            <div class="item-1 hover-bc anima-pro-1">
-                                <img src="../../image/background/running6.jpg">
-                                <div class="cart-icon icon-bounce icon-1"><a href="#"><i class="icon-shopping-cart"></i></a>
-                                </div>
-                                <div class="face-icon icon-bounce icon-1"><a href="#"><i class="icon-facebook"></i></a>
-                                </div>
-                                <div class="insta-icon icon-bounce icon-1"><a href="#"><i
-                                        class="icon-instagram"></i></a></div>
-                                <div class="product-desc">
-                                    <p>Addidas monster</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="wrap-product wrap-2 col-sm-6 con-xs-6">
-                            <div class="item-2 hover-bc anima-pro-2">
-                                <img src="../../image/background/soc6.jpg">
-                                <div class="cart-icon icon-bounce icon-2"><a href="#"><i class="icon-shopping-cart"></i></a>
-                                </div>
-                                <div class="face-icon icon-bounce icon-2"><a href="#"><i class="icon-facebook"></i></a>
-                                </div>
-                                <div class="insta-icon icon-bounce icon-2"><a href="#"><i
-                                        class="icon-instagram"></i></a></div>
-                                <div class="product-desc">
-                                    <p>somethings here</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="wrap-product wrap-3 col-sm-6 con-xs-6">
-                            <div class="item-3 hover-bc anima-pro-3">
-                                <img src="../../image/background/soc12.jpg">
-                                <div class="cart-icon icon-bounce icon-2"><a href="#"><i class="icon-shopping-cart"></i></a>
-                                </div>
-                                <div class="face-icon icon-bounce icon-2"><a href="#"><i class="icon-facebook"></i></a>
-                                </div>
-                                <div class="insta-icon icon-bounce icon-2"><a href="#"><i
-                                        class="icon-instagram"></i></a></div>
-                                <div class="product-desc">
-                                    <p>somethings here</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="wrap-product wrap-4 col-sm-6 con-xs-6">
-                            <div class="item-4 hover-bc anima-pro-4">
-                                <img src="../../image/background/basketball8.jpg">
-                                <div class="cart-icon icon-bounce icon-3"><a href="#"><i class="icon-shopping-cart"></i></a>
-                                </div>
-                                <div class="face-icon icon-bounce icon-3"><a href="#"><i class="icon-facebook"></i></a>
-                                </div>
-                                <div class="insta-icon icon-bounce icon-3"><a href="#"><i
-                                        class="icon-instagram"></i></a></div>
-                                <div class="product-desc">
-                                    <p>Nike T90</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item item-product">
-                        <div class="wrap-product wrap-1 col-sm-6 con-xs-6">
-                            <div class="item-1 hover-bc anima-pro-1">
-                                <img src="../../image/background/running4.jpg">
-                                <div class="cart-icon icon-bounce icon-1"><a href="#"><i class="icon-shopping-cart"></i></a>
-                                </div>
-                                <div class="face-icon icon-bounce icon-1"><a href="#"><i class="icon-facebook"></i></a>
-                                </div>
-                                <div class="insta-icon icon-bounce icon-1"><a href="#"><i
-                                        class="icon-instagram"></i></a></div>
-                                <div class="product-desc">
-                                    <p>Addidas monster</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="wrap-product wrap-2 col-sm-6 con-xs-6">
-                            <div class="item-2 hover-bc anima-pro-2">
-                                <img src="../../image/background/soc8.jpg">
-                                <div class="cart-icon icon-bounce icon-2"><a href="#"><i class="icon-shopping-cart"></i></a>
-                                </div>
-                                <div class="face-icon icon-bounce icon-2"><a href="#"><i class="icon-facebook"></i></a>
-                                </div>
-                                <div class="insta-icon icon-bounce icon-2"><a href="#"><i
-                                        class="icon-instagram"></i></a></div>
-                                <div class="product-desc">
-                                    <p>somethings here</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="wrap-product wrap-3 col-sm-6 con-xs-6">
-                            <div class="item-3 hover-bc anima-pro-3">
-                                <img src="../../image/background/soc5.jpg">
-                                <div class="cart-icon icon-bounce icon-2"><a href="#"><i class="icon-shopping-cart"></i></a>
-                                </div>
-                                <div class="face-icon icon-bounce icon-2"><a href="#"><i class="icon-facebook"></i></a>
-                                </div>
-                                <div class="insta-icon icon-bounce icon-2"><a href="#"><i
-                                        class="icon-instagram"></i></a></div>
-                                <div class="product-desc">
-                                    <p>somethings here</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="wrap-product wrap-4 col-sm-6 con-xs-6">
-                            <div class="item-4 hover-bc anima-pro-4">
-                                <img src="../../image/background/basketball7.jpg">
-                                <div class="cart-icon icon-bounce icon-3"><a href="#"><i class="icon-shopping-cart"></i></a>
-                                </div>
-                                <div class="face-icon icon-bounce icon-3"><a href="#"><i class="icon-facebook"></i></a>
-                                </div>
-                                <div class="insta-icon icon-bounce icon-3"><a href="#"><i
-                                        class="icon-instagram"></i></a></div>
-                                <div class="product-desc">
-                                    <p>Nike T90</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item  item-product">
-                        <div class="wrap-product wrap-1 col-sm-6 con-xs-6">
-                            <div class="item-1 hover-bc anima-pro-1">
-                                <img src="../../image/background/soc.jpg">
-                                <div class="cart-icon icon-bounce icon-1"><a href="#"><i class="icon-shopping-cart"></i></a>
-                                </div>
-                                <div class="face-icon icon-bounce icon-1"><a href="#"><i class="icon-facebook"></i></a>
-                                </div>
-                                <div class="insta-icon icon-bounce icon-1"><a href="#"><i
-                                        class="icon-instagram"></i></a></div>
-                                <div class="product-desc">
-                                    <p>Addidas monster</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="wrap-product wrap-2 col-sm-6 con-xs-6">
-                            <div class="item-2 hover-bc anima-pro-2">
-                                <img src="../../image/background/soc15.jpg">
-                                <div class="cart-icon icon-bounce icon-2"><a href="#"><i class="icon-shopping-cart"></i></a>
-                                </div>
-                                <div class="face-icon icon-bounce icon-2"><a href="#"><i class="icon-facebook"></i></a>
-                                </div>
-                                <div class="insta-icon icon-bounce icon-2"><a href="#"><i
-                                        class="icon-instagram"></i></a></div>
-                                <div class="product-desc">
-                                    <p>somethings here</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="wrap-product wrap-3 col-sm-6 con-xs-6">
-                            <div class="item-3 hover-bc anima-pro-3">
-                                <img src="../../image/background/soc10.jpg">
-                                <div class="cart-icon icon-bounce icon-2"><a href="#"><i class="icon-shopping-cart"></i></a>
-                                </div>
-                                <div class="face-icon icon-bounce icon-2"><a href="#"><i class="icon-facebook"></i></a>
-                                </div>
-                                <div class="insta-icon icon-bounce icon-2"><a href="#"><i
-                                        class="icon-instagram"></i></a></div>
-                                <div class="product-desc">
-                                    <p>somethings here</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="wrap-product wrap-4 col-sm-6 con-xs-6">
-                            <div class="item-4 hover-bc anima-pro-4">
-                                <img src="../../image/background/basketball3.jpg">
-                                <div class="cart-icon icon-bounce icon-3"><a href="#"><i class="icon-shopping-cart"></i></a>
-                                </div>
-                                <div class="face-icon icon-bounce icon-3"><a href="#"><i class="icon-facebook"></i></a>
-                                </div>
-                                <div class="insta-icon icon-bounce icon-3"><a href="#"><i
-                                        class="icon-instagram"></i></a></div>
-                                <div class="product-desc">
-                                    <p>Nike T90</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="ava_info_contain">
+                <div class="avatar">
+                    <img src="Content/avatar.jpg"/>
                 </div>
-
-                <!-- Left and right controls -->
-                <span class="left left-pro carousel-control banner-control" href="#product-carousel" data-slide="prev">
-                    <span class="glyphicon glyphiconproduct glyphicon-chevron-left"></span>
-                    <span class="sr-only">Previous</span>
-            </span>
-                <span class="right right-pro carousel-control banner-control" href="#product-carousel"
-                      data-slide="next">
-                    <span class="glyphicon glyphiconproduct glyphicon-chevron-right"></span>
-                    <span class="sr-only">Next</span>
-            </span>
-            </div>
-        </div>
-    </div>
-</main>
-
-
-<!--PRODUCT LIST ON PHONE VIEWPORT-->
-<div class="product-wrap">
-    <div class="pro-title">
-        <h2>FEATURED<br>PRODUCT</h2>
-    </div>
-    <div class="row product">
-        <div class="product-img">
-            <img src="../../image/background/basketball9.jpg">
-            <div class="cart-icon-pro icon-3 icon-pro"><a href="#"><i class="icon-shopping-cart"></i></a></div>
-            <div class="face-icon-pro icon-3 icon-pro"><a href="#"><i class="icon-facebook"></i></a></div>
-            <div class="insta-icon-pro icon-3 icon-pro"><a href="#"><i class="icon-instagram"></i></a></div>
-            <label class="price-pro">$ 500</label>
-        </div>
-        <div class="desc-product">
-            <div class="desc-title">
-                <a href="#"><h2>ADIDAS MONSTER</h2></a>
-                <p>ATHLETICS BADMINTON BEST SELLERS BOYS' FITNESS AND EXERCISE </p>
-            </div>
-            <div class="new-btn btn-product">
-                <a href="#" class="btn btn-effect">
-                    <svg>
-                        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-                    </svg>
-                    Add to cart
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <div class="row product">
-        <div class="product-img">
-            <img src="../../image/background/soc8.jpg">
-            <div class="cart-icon-pro icon-3 icon-pro"><a href="#"><i class="icon-shopping-cart"></i></a></div>
-            <div class="face-icon-pro icon-3 icon-pro"><a href="#"><i class="icon-facebook"></i></a></div>
-            <div class="insta-icon-pro icon-3 icon-pro"><a href="#"><i class="icon-instagram"></i></a></div>
-            <label class="price-pro">$ 500</label>
-        </div>
-        <div class="desc-product">
-            <div class="desc-title">
-                <a href="#"><h2>ADIDAS MONSTER</h2></a>
-                <p>ATHLETICS BADMINTON BEST SELLERS BOYS' FITNESS AND EXERCISE </p>
-            </div>
-            <div class="new-btn btn-product">
-                <a href="#" class="btn btn-effect">
-                    <svg>
-                        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-                    </svg>
-                    Add to cart
-                </a>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="row product">
-        <div class="product-img">
-            <img src="../../image/background/soc13.jpg">
-            <div class="cart-icon-pro icon-3 icon-pro"><a href="#"><i class="icon-shopping-cart"></i></a></div>
-            <div class="face-icon-pro icon-3 icon-pro"><a href="#"><i class="icon-facebook"></i></a></div>
-            <div class="insta-icon-pro icon-3 icon-pro"><a href="#"><i class="icon-instagram"></i></a></div>
-            <label class="price-pro">$ 500</label>
-        </div>
-        <div class="desc-product">
-            <div class="desc-title">
-                <a href="#"><h2>ADIDAS MONSTER</h2></a>
-                <p>ATHLETICS BADMINTON BEST SELLERS BOYS' FITNESS AND EXERCISE </p>
-            </div>
-            <div class="new-btn btn-product">
-                <a href="#" class="btn btn-effect">
-                    <svg>
-                        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-                    </svg>
-                    Add to cart
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <div class="row product">
-        <div class="product-img">
-            <img src="../../image/background/soc7.jpg">
-            <div class="cart-icon-pro icon-3 icon-pro"><a href="#"><i class="icon-shopping-cart"></i></a></div>
-            <div class="face-icon-pro icon-3 icon-pro"><a href="#"><i class="icon-facebook"></i></a></div>
-            <div class="insta-icon-pro icon-3 icon-pro"><a href="#"><i class="icon-instagram"></i></a></div>
-            <label class="price-pro">$ 500</label>
-        </div>
-        <div class="desc-product">
-            <div class="desc-title">
-                <a href="#"><h2>ADIDAS MONSTER</h2></a>
-                <p>ATHLETICS BADMINTON BEST SELLERS BOYS' FITNESS AND EXERCISE </p>
-            </div>
-            <div class="new-btn btn-product">
-                <a href="#" class=" btn btn-effect">
-                    <svg>
-                        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-                    </svg>
-                    Add to cart
-                </a>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="row product">
-        <div class="product-img">
-            <img src="../../image/background/soc3.jpg">
-            <div class="cart-icon-pro icon-3 icon-pro"><a href="#"><i class="icon-shopping-cart"></i></a></div>
-            <div class="face-icon-pro icon-3 icon-pro"><a href="#"><i class="icon-facebook"></i></a></div>
-            <div class="insta-icon-pro icon-3 icon-pro"><a href="#"><i class="icon-instagram"></i></a></div>
-            <label class="price-pro">$ 500</label>
-        </div>
-        <div class="desc-product">
-            <div class="desc-title">
-                <a href="#"><h2>ADIDAS MONSTER</h2></a>
-                <p>ATHLETICS BADMINTON BEST SELLERS BOYS' FITNESS AND EXERCISE </p>
-            </div>
-            <div class="new-btn btn-product">
-                <a href="#" class="btn btn-effect">
-                    <svg>
-                        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-                    </svg>
-                    Add to cart
-                </a>
-            </div>
-        </div>
-    </div>
-
-</div>
-<!--PRODUCT LIST ON PHONE VIEWPORT-->
-
-
-<!--END PRODUCT CAROUSEL-->
-
-
-<div class="wrapper">
-    <h2 class="welcome-h comment-h">BUYERS TESTIMONIALS</h2>
-    <p class="skill-p comment-p">With thousands of shoes sold in the last few years, we’ve accumulated lots of happy
-        testimonials!</p>
-    <div class="row">
-        <div class="col-md-4 col-xs-6">
-            <div class="dialogbox">
-                <div class="body">
-                    <span class="tip tip-down"></span>
-                    <div class="message">
-                        <span>For all my adult life there never was a single pair of shoes which I was able to wear for more<span
-                                class="cut-off"> than 1 month… Hence, I am so happy I’ve found myself a shoe store like this one!</span></span>
+                <div class="soft_info_contain">
+                    <h2 class="myname">Nam Nguyen</h2>
+                    <div class="ml9">
+                        <span class="letters"></span>
                     </div>
-                </div>
-                <div class="userBox">
-                    <div class="userAvatar">
-                        <img class="avatar" src="../../image/post/team_2-120x120.jpg">
-                    </div>
-                    <div class="userComment">
-                        <h3>-Mary Wilson</h3>
+                    <div class="icon_social_contain">
+                        <a class="shadow_hover spotify" target="_blank" href="https://open.spotify.com/playlist/4YpoIBD6AMyRBdMOppgYp3?fbclid=IwAR3HHhhpAn9-XQm9t6zpk0YyAMxLvxmjiOtv7gLxveFZiDgki072HnfJxa4&si=W1zIiC0rQKC9235gntRsKg"><i class="fab fa-spotify"></i></a>
+                        <a class="shadow_hover github" target="_blank" href="https://github.com/team2-nguyenvannnam"><i class="fab fa-github"></i></a>
+                        <a class="shadow_hover face" target="_blank" href="https://www.facebook.com/Namhex"><i class="fab fa-facebook-square"></i></a>
+                        <a class="shadow_hover twitter" target="_blank" href="https://twitter.com/NamNguy17384687"><i class="fab fa-twitter"></i></a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-4 col-xs-6">
-            <div class="dialogbox">
-                <div class="body">
-                    <span class="tip tip-down"></span>
-                    <div class="message">
-                        <span>I am a big shoe lover, sporting both athletic shoes for running, tennis and horse riding,<span
-                                class="cut-off"> just as well as stylish little shoes on a high heel. This store helps me find it all in no time!</span></span>
+    </div>
+    <div class="card_big_container">
+        <div class="card_Big_wrap card_about_wrap indicator_card invi">
+            <div class="card hide_scroll">
+                <div class="title_card">
+                    <h2>About Me</h2>
+                </div>
+                <div class="About_description">
+                    <div class="About_intro">
+                        <h3>Hello! I'm Nam.</h3>
+                        <p>I'm a .NET programmer specializing in Web Application. I’m keenly passionate about coding and continuously curious about new technologies. With knowledge of both Back-end and Front-end i can communicate well with teammates to find the best solution for the project.</p>
+                    </div>
+                    <div class="About_moreinfo">
+                        <div class="moreinfo_child">
+                            <h4 class="moreinfo_title">
+                                Age:
+                            </h4>
+                            <p>24</p>
+                        </div>
+                        <div class="moreinfo_child">
+                            <h4 class="moreinfo_title">
+                                Phone Number:
+                            </h4>
+                            <p>+84 783700048</p>
+                        </div>
+                        <div class="moreinfo_child">
+                            <h4 class="moreinfo_title">
+                                Address:
+                            </h4>
+                            <p>DaNang, VietNam</p>
+                        </div>
+                        <div class="moreinfo_child">
+                            <h4 class="moreinfo_title">
+                                Status:
+                            </h4>
+                            <p style="width: 73%;">Available for working</p>
+                        </div>
                     </div>
                 </div>
-                <div class="userBox">
-                    <div class="userAvatar">
-                        <img class="avatar" src="../../image/post/team_3-120x120.jpg">
+                <div class="title_card">
+                    <h2>My Services</h2>
+                </div>
+                <div class="services_itemContainer">
+                    <div class="services_item">
+                        <div class="services_icon"><i class="fas fa-code"></i></div>
+                        <h3>Back-end Development</h3>
+                        <p>Using .NET framework to develop the application but still can research new framework and server-side languages to meet the project's requirement</p>
                     </div>
-                    <div class="userComment">
-                        <h3>-Rowald Harris</h3>
+                    <div class="services_item">
+                        <div class="services_icon"><i class="fas fa-crop-alt"></i></div>
+                        <h3>Front-end Development</h3>
+                        <p>Using Html, CSS, Boostrap to setting layout, design the Web-appearance and JS to add more effect to improve User experience</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-4 col-xs-12 last-comment">
-            <div class="dialogbox">
-                <div class="body">
-                    <span class="tip tip-down"></span>
-                    <div class="message">
-                        <span>I first visited this store as I was looking for  new fitness shoes. Eventually, as I found it in no time flat. Their range makes me feel like I will never be able to buy all the shoes I want!</span>
+        <div class="card_Big_wrap card_resume_wrap indicator_card invi">
+            <div class="card hide_scroll">
+                <div class="title_card">
+                    <h2>Resume</h2>
+                </div>
+                <div class="Resume_item_container">
+                    <div class="Experience_container">
+                        <div class="Resume_title_container">
+                            <div class="Resume_icon_container">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <p>
+                                experience
+                            </p>
+                        </div>
+                        <div class="Experience_item">
+                            <div class="Experience_time">
+                                <p>
+                                    2019 - Present
+                                </p>
+                            </div>
+                            <div class="Experience_item_title">
+                                <h4>Elearning project</h4>
+                                <p>Softech Aptech</p>
+                            </div>
+                            <p class="Experience_description">
+                                Led a team of three to deliver complex English online learning website utilizing ASP.NET, Identity, Entity Framework on back-end and HTML, CSS, JS, Jquery, WOW.JS on front-end with using Razor strong-typed view and AJAX to transfer the data.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="Experience_container">
+                        <div class="Resume_title_container">
+                            <div class="Resume_icon_container">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <p>
+                                Education
+                            </p>
+                        </div>
+                        <div class="Experience_item">
+                            <div class="Experience_time">
+                                <p>
+                                    2017 - Present
+                                </p>
+                            </div>
+                            <div class="Experience_item_title">
+                                <h4>Softech Aptech</h4>
+                                <p>DaNang - VietNam</p>
+                            </div>
+                            <p class="Experience_description">
+
+                            </p>
+                            <div class="Experience_time">
+                                <p>
+                                    2013 - 2016
+                                </p>
+                            </div>
+                            <div class="Experience_item_title">
+                                <h4>Economic University</h4>
+                                <p>DaNang - VietNam</p>
+                            </div>
+                            <p class="Experience_description">
+
+                            </p>
+                            <div class="Experience_time">
+                                <p>
+                                    2010 - 2013
+                                </p>
+                            </div>
+                            <div class="Experience_item_title">
+                                <h4>Phan Chau Trinh High School</h4>
+                                <p>DaNang - VietNam</p>
+                            </div>
+                            <p class="Experience_description">
+
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="userBox">
-                    <div class="userAvatar">
-                        <img class="avatar" src="../../image/post/team_4-120x120.jpg">
+                <div class="title_card">
+                    <h2>Skills</h2>
+                </div>
+                <div class="Skills_container">
+                    <div class="Experience_container">
+                        <div class="Resume_title_container">
+                            <div class="Resume_icon_container">
+                                <i class="fas fa-wrench"></i>
+                            </div>
+                            <p>
+                                Framework/Platform
+                            </p>
+                        </div>
+                        <div class="list_skill_item_container">
+                            <ul>
+                                <li>
+                                    .NET
+                                </li>
+                                <li>
+                                    Bootstrap
+                                </li>
+                                <li>
+                                    Entity Framework
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="userComment">
-                        <h3>-Jennifer Beck</h3>
+                    <div class="Experience_container">
+                        <div class="Resume_title_container">
+                            <div class="Resume_icon_container">
+                                <i class="fas fa-atlas"></i>
+                            </div>
+                            <p>
+                                Languages
+                            </p>
+                        </div>
+                        <div class="list_skill_item_container">
+                            <ul>
+                                <li>
+                                    C#
+                                </li>
+                                <li>
+                                    JS,Jquery
+                                </li>
+                                <li>
+                                    HTML,CSS
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card_Big_wrap card_project_wrap indicator_card invi">
+            <div class="card hide_scroll">
+                <div class="title_card">
+                    <h2>Projects</h2>
+                </div>
+                <div class="Projects_container">
+                    <div class="Projects_item_container">
+                        <div class="Projects_item">
+                            <img src="Content/Screenshot (239).png"/>
+                            <div class="Projects_item_bg">
+
+                            </div>
+                            <a class="Project_link_demo Project_link">
+                                <i class="fas fa-desktop"></i>
+                            </a>
+                            <a class="Project_link_github Project_link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="P_item_description">
+                            <h2>ABC English</h2>
+                            <div class="P_demo_container">
+                                <a class="P_livedemo P_demo">
+                                    <i class="fas fa-desktop"></i>
+                                </a>
+                                <a class="P_github P_demo">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                            <p class="P_description">
+                                Complex English E=learning Website utilizing .NET
+                            </p>
+                            <div class="P_technologies_container">
+                                <div class="P_technologies_container_item">
+                                    Html
+                                </div>
+                                <div class="P_technologies_container_item">
+                                    CSS
+                                </div>
+                                <div class="P_technologies_container_item">
+                                    JS
+                                </div>
+                                <div class="P_technologies_container_item">
+                                    .NET
+                                </div>
+                                <div class="P_technologies_container_item">
+                                    AJAX
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Projects_item_container">
+                        <div class="Projects_item">
+                            <img src="Content/Screenshot (237).png"/>
+                            <div class="Projects_item_bg">
+
+                            </div>
+                            <a class="Project_link_demo Project_link">
+                                <i class="fas fa-desktop"></i>
+                            </a>
+                            <a class="Project_link_github Project_link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="P_item_description">
+                            <h2>Athlete World</h2>
+                            <div class="P_demo_container">
+                                <a class="P_livedemo P_demo">
+                                    <i class="fas fa-desktop"></i>
+                                </a>
+                                <a class="P_github P_demo">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                            <p class="P_description">
+                                Front-end of a Shoe selling website
+                            </p>
+                            <div class="P_technologies_container">
+                                <div class="P_technologies_container_item">
+                                    Html
+                                </div>
+                                <div class="P_technologies_container_item">
+                                    CSS
+                                </div>
+                                <div class="P_technologies_container_item">
+                                    JS
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-<!--Content-->
-
-<!--Remaining section-->
-<footer ng-include="'../common/footer.html'"></footer>
-
-<!--SCROLL TOP BUTTON-->
+@*HIDE SCROLL BAR*@
 <script>
-    // ===== Scroll to Top ====
-    $(window).scroll(function () {
-        if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
-            $('#return-to-top').fadeIn(200);    // Fade in the arrow
-        } else {
-            $('#return-to-top').fadeOut(200);   // Else fade out the arrow
-        }
-    });
-    $('#return-to-top').click(function () {      // When arrow is clicked
-        $('body,html').animate({
-            scrollTop: 0                       // Scroll to top of body
-        }, 1200);
-    });
+    $(function () {
+        $(".card").scroll(function () {
+            $(".card").removeClass("hide_scroll");
+            setTimeout(function () {
+                $(".card").addClass("hide_scroll");
+            }, 600);
+        })
+    })
 </script>
-<!--SCROLL TOP BUTTON-->
+@*HIDE SCROLL BAR*@
 
-<!--PARALLAX-->
-
+@*Indicator card section*@
 <script>
-    // Y axis scroll speed
-    var velocity = 0.3;
+    $(function () {
+        $(".about_indicate").click(function () {
+            $(".indicator_card").addClass("invi");
+            $(".card_about_wrap").removeClass("invi");
+        })
+        $(".resume_indicate").click(function () {
+            $(".indicator_card").addClass("invi");
+            $(".card_resume_wrap").removeClass("invi");
+        })
+        $(".project_indicate").click(function () {
+            $(".indicator_card").addClass("invi");
+            $(".card_project_wrap").removeClass("invi");
+        })
+    })
+</script>
+@*Indicator card section*@
 
-    function update() {
-        var pos = $(window).scrollTop();
-        $('.contain-move').each(function () {
-            var $element = $(this);
-            // subtract some from the height b/c of the padding
-            var height = $element.height() - 18;
-            $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) + 'px');
+@*TEXT CHANGE*@
+<script>
+    var i = 0;
+    var mytext = new Array(".NET developer", "Technologies flexible", "Front-end coding")
+    function ChangeText() {
+        $(".letters").text(mytext[i]);
+        i = i + 1;
+        if (i <= mytext.length) {
+            Textanimate();
+        }
+        else {
+            i = 0;
+            $(".letters").text(mytext[i]);
+            i = i + 1;
+            Textanimate();
+        }
+
+        setTimeout("ChangeText()", 3000);
+    };
+    function Textanimate() {
+        $('.ml9 .letters').each(function () {
+            $(this).html($(this).text().replace(/([^\x00-\x80]|\w|\.|\-)/g, "<span class='letter'>$&</span>"));
+        });
+
+        anime.timeline({ loop: 0 })
+            .add({
+                targets: '.ml9 .letter',
+                translateY: ["1.1em", 0],
+                translateZ: 0,
+                duration: 750,
+                delay: function (el, i) {
+                    return 50 * i;
+                }
+            }).add({
+            //targets: '.ml9',
+            //opacity: 0,
+            //duration: 1000,
+            //easing: "easeOutExpo",
+            //delay: 1000,
         });
     };
-
-    $(window).bind('scroll', update);
-</script>
-
-<!--PARALLAX-->
-
-<!--FIXED NAV-->
-
-<script>
-    $(document).ready(function () {
-        var scrollTop = 0;
-        $(window).scroll(function () {
-            scrollTop = $(window).scrollTop();
-            $('.counter').html(scrollTop);
-
-            if (scrollTop >= 100) {
-                $('#global-nav').addClass('scrolled-nav');
-            } else if (scrollTop < 100) {
-                $('#global-nav').removeClass('scrolled-nav');
-            }
-
-        });
-
-    });
-</script>
-
-<!--FIXED NAV-->
-
-<!--PRODUCT ICON BOUNCE IN-->
-
-
-<script>
-    $('.hover-bc').hover(function () {
-        $(this).find('.icon-bounce').toggleClass('animate-icon')
-    });
-</script>
-<script>
-    $('.carousel-fade-product').carousel({
-        interval: false
-    });
-
-    $('.carousel-fade').carousel({
-        interval: false
-    });
+    ChangeText();
 
 </script>
-<!--PRODUCT ICON BOUNCE IN-->-
-<!--FLY IN CONTENT-->
+@*TEXT CHANGE*@
 
-<script>
-    jQuery(function ($) {
-
-        var doAnimations = function () {
-
-            var offset = $(window).scrollTop() + $(window).height(),
-                $animatables = $('.animatable');
-
-            if ($animatables.size() == 0) {
-                $(window).off('scroll', doAnimations);
-            }
-
-            $animatables.each(function (i) {
-                var $animatable = $(this);
-                if (($animatable.offset().top + $animatable.height() - 365) < offset) {
-                    $animatable.removeClass('animatable').addClass('animated');
-                }
-            });
-
-        };
-
-        $(window).on('scroll', doAnimations);
-        $(window).trigger('scroll');
-
-    });
-</script>
-<!--FLY IN CONTENT-->
 </body>
 </html>
+
+
