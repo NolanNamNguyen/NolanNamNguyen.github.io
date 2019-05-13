@@ -228,8 +228,7 @@
 }
 
     .avatar img {
-        width: 145%;
-        left: -45%;
+        width: 100%;
         position: absolute;
     }
 
