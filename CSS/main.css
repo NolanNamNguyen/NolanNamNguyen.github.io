@@ -779,10 +779,22 @@
 }
 .P_demo{
     margin-right:8px;
+    text-decoration: none;
+    overflow: visible;
+}
+.P_demo i{
+    transform: translateY(0);
+    color: #3a3a3a ;
+    transition: all .3s;
+}
+.P_demo:hover i{
+    transform: translateY(-5px);
+    color: rgba(131, 14, 224, 0.76);
 }
 .P_demo_container {
     font-size: 30px;
-    color: #3a3a3a;
+    overflow:visible;
+
 }
 .P_technologies_container{
     display:flex;
