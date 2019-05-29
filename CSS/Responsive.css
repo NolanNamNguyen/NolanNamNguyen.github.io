@@ -10,15 +10,27 @@
         left:4%;
         width: 93%;
     }
-    .indicator_resume{
-        width: 52px;
-        position: absolute;
-    }
+    /*.indicator_resume{*/
+        /*width: 52px;*/
+        /*position: absolute;*/
+    /*}*/
 }
 
 @media only screen and (max-width: 1025px) {
+    /*.indicator_resume__container{*/
+        /*display: none;*/
+    /*}*/
     .indicator_resume__container{
-        display: none;
+        width: 214px;
+        position: absolute;
+        top: 615px;
+
+    }
+    .indicator_resume{
+        flex-flow: row;
+    }
+    .indicate_contain_a{
+        height: 61px;
     }
     .resume_Big_container{
         align-items: center;
@@ -26,7 +38,7 @@
     }
     .profile_big_contain{
         width:72%;
-
+        margin-bottom: 55px;
     }
     .bg_bubbles{
         display: none;
@@ -41,26 +53,19 @@
         height: auto;
     }
     .card_Big_wrap{
-        position: relative;
         height: auto;
         margin-top: 25px;
     }
     .card_big_container{
         width:102%;
     }
-    .invi{
-        opacity:1;
-        transform:none;
-        z-index: 0;
-    }
     .background_gradient{
-        height: 2850px;
+        height: 1563px;
     }
+
 }
 @media (max-width: 845px) {
-    .indicator_resume__container{
-        display: none;
-    }
+
     .resume_Big_container{
         align-items: center;
         flex-flow:column;
@@ -82,21 +87,14 @@
         height: auto;
     }
     .card_Big_wrap{
-        position: relative;
         height: auto;
         margin-top: 25px;
     }
     .card_big_container{
         width:102%;
     }
-    .invi{
-        opacity:1;
-        transform:none;
-        z-index: 0;
-    }
-    .background_gradient{
-        height: 2850px;
-    }
+
+
 }
 @media (max-width: 500px) {
     .profile_big_contain{
@@ -130,15 +128,12 @@
     .Skills_container{
         flex-flow: column;
     }
-    .background_gradient{
-        height:3810px;
-    }
+
     .Projects_item_container{
         width: 191%;
     }
-}
-@media (max-width: 361px){
     .background_gradient{
-        height: 4147px;
+        height: 2160px;
     }
 }
+
