@@ -1,0 +1,30 @@
+@media (max-width:1010px ) {
+
+    .P_technologies_container {
+        width: 143%;
+        font-size: 15px;
+    }
+}
+@media (max-width: 940px){
+    .resume_Big_container{
+        left:4%;
+        width: 93%;
+    }
+    .indicator_resume{
+        width: 52px;
+        position: absolute;
+    }
+}
+@media (max-width: 845px) {
+    .indicator_resume__container{
+        display: none;
+    }
+    .resume_Big_container{
+        align-items: center;
+        flex-flow:column;
+    }
+    .profile_big_contain{
+        width:72%;
+
+    }
+}

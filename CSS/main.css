@@ -136,7 +136,7 @@
     justify-content: space-evenly;
     font-weight: 600;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 12px;
     color: #656565;
     transition: all 0.2s ease-in-out;
     height: 70px;
@@ -218,6 +218,7 @@
     align-items: center;
     left: 8%;
     top: 38%;
+    justify-content: space-between;
 }
 
 .avatar {
@@ -247,10 +248,9 @@
 .soft_info_contain {
     display: flex;
     flex-flow: column;
-    height: 38%;
+    height: 49%;
     width: 70%;
     justify-content: space-around;
-    padding-top: 12px;
 }
 
 .icon_social_contain {
@@ -275,7 +275,6 @@
 
 .ml9 {
     text-align: center;
-    margin: 11px 0;
     font-size: 17px;
 }
 
@@ -303,7 +302,6 @@
         background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.69) 0%, rgba(0, 0, 0, 0) 80%);
         /* W3C */
         transition-duration: 0.3s;
-        transition-property: transform opacity;
     }
 
     .shadow_hover:hover {
@@ -408,7 +406,6 @@
 .card {
     overflow-y: scroll;
     height: 100%;
-    color: none;
 }
 
 .title_card:before {
@@ -603,7 +600,7 @@
 .Resume_icon_container {
     color: #78CC6D;
     font-size: 32px;
-    margin-right: 13px;
+    padding-right: 13px;
 }
 .Resume_title_container p {
     line-height: 14px;
@@ -766,16 +763,19 @@
     padding-bottom:36px;
     justify-content:space-between;
     height:170px;
+    overflow: visible;
 }
 .P_item_description{
     width:48%;
     display:flex;
     flex-flow:column;
+    justify-content:space-between;
+    overflow: visible;
 }
 .P_item_description h2{
     color: rgba(60, 59, 59, 0.8196078431372549);
     font-size: 23px;
-    margin-bottom: 17px;
+    padding-bottom: 13px;
 }
 .P_demo{
     margin-right:8px;
@@ -798,8 +798,9 @@
 }
 .P_technologies_container{
     display:flex;
-    width:100%;
-    margin-top:16px;
+    width:130%;
+    padding-top: 12px;
+    overflow: visible;
 }
 .P_technologies_container_item {
     background: linear-gradient(to bottom right,#50a3a2 0%,#78cc6d 100%);
@@ -851,5 +852,8 @@
 }
 .Project_link{
     font-size:46px;
+}
+.unexpected{
+
 }
 
