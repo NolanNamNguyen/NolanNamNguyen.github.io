@@ -5,7 +5,6 @@
 * {
     padding: 0;
     margin: 0;
-    overflow: hidden;
 }
 
 .background_gradient {
@@ -173,6 +172,7 @@
     position: relative;
     box-shadow: 2px 4px 6px grey;
     z-index: 6;
+    overflow: hidden;
 }
 
 .cover_image {
@@ -226,6 +226,7 @@
     height: 123px;
     border-radius: 50%;
     position: relative;
+    overflow: hidden;
 }
 
     .avatar img {
@@ -276,6 +277,7 @@
 .ml9 {
     text-align: center;
     font-size: 17px;
+    overflow: hidden;
 }
 
 .shadow_hover {
@@ -467,7 +469,7 @@
 
 .moreinfo_child {
     display: flex;
-    width: 43%;
+    width: 48%;
 }
 
 .moreinfo_title {

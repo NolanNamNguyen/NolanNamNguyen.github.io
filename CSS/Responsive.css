@@ -15,6 +15,48 @@
         position: absolute;
     }
 }
+
+@media only screen and (max-width: 1025px) {
+    .indicator_resume__container{
+        display: none;
+    }
+    .resume_Big_container{
+        align-items: center;
+        flex-flow:column;
+    }
+    .profile_big_contain{
+        width:72%;
+
+    }
+    .bg_bubbles{
+        display: none;
+    }
+    .resume_Big_container{
+        /*height: 2000px;*/
+    }
+    .profile_contain{
+        height:600px;
+    }
+    .profile_big_contain{
+        height: auto;
+    }
+    .card_Big_wrap{
+        position: relative;
+        height: auto;
+        margin-top: 25px;
+    }
+    .card_big_container{
+        width:102%;
+    }
+    .invi{
+        opacity:1;
+        transform:none;
+        z-index: 0;
+    }
+    .background_gradient{
+        height: 2850px;
+    }
+}
 @media (max-width: 845px) {
     .indicator_resume__container{
         display: none;
@@ -26,5 +68,77 @@
     .profile_big_contain{
         width:72%;
 
+    }
+    .bg_bubbles{
+        display: none;
+    }
+    .resume_Big_container{
+        /*height: 2000px;*/
+    }
+    .profile_contain{
+        height:600px;
+    }
+    .profile_big_contain{
+        height: auto;
+    }
+    .card_Big_wrap{
+        position: relative;
+        height: auto;
+        margin-top: 25px;
+    }
+    .card_big_container{
+        width:102%;
+    }
+    .invi{
+        opacity:1;
+        transform:none;
+        z-index: 0;
+    }
+    .background_gradient{
+        height: 2850px;
+    }
+}
+@media (max-width: 500px) {
+    .profile_big_contain{
+        padding:0;
+        width:96%;
+    }
+    .moreinfo_child{
+        width:100%;
+    }
+    .services_itemContainer{
+        flex-flow:column;
+    }
+    .services_item{
+        width:100%;
+    }
+    .services_itemContainer:before{
+        content:none;
+    }
+    .Resume_item_container:before{
+        content: none;
+    }
+    .Resume_item_container{
+        flex-flow:column;
+    }
+    .Experience_container{
+        width:100%
+    }
+    .Skills_container:before{
+        content:none;
+    }
+    .Skills_container{
+        flex-flow: column;
+    }
+    .background_gradient{
+        height:3810px;
+    }
+    .Projects_item_container{
+        width: 191%;
+    }
+}
+@media (max-width: 361px){
+    .background_gradient{
+        height: 4147px;
     }
 }
