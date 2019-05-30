@@ -703,6 +703,7 @@
     color: #646464;
     position:relative;
     overflow:visible;
+    list-style-type: none;
 }
 .list_skill_item_container li:before{
     content: '';
