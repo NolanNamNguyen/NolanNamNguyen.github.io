@@ -742,6 +742,8 @@
     flex-flow: column;
 }
 .Projects_item {
+    display: flex;
+    justify-content: center;
     border-radius: 4px;
     overflow: hidden;
     box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.39);
@@ -842,7 +844,7 @@
     left:27%;
 }
 .Project_link_github{
-    left:59%;
+    left:40%;
 }
 .Project_linkl:hover{
     cursor:pointer;
